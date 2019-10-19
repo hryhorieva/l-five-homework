@@ -1,0 +1,216 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+
+.mainer {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+    padding: 110px 0;
+}
+
+.logo a {
+    font-size: 35px;
+    color: #FFAE00;
+}
+
+.content {
+    margin: 0 0 105px 0;
+}
+
+.footer {
+    background-color: #1D1C1C;
+    padding: 110px 0;
+}
+
+.our-features {
+    color: white;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.our-features .caption {
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 26px;
+}
+
+.our-features li {
+    text-align: center;
+    padding: 0 15px;
+    line-height: 24px;
+}
+
+.our-features .icon {
+    background-color: #FFAE00;
+    width: 80px;
+    height: 80px;
+    margin: 0 0 35px;
+    display: inline-block;
+    border-radius: 15px 0 15px 0;
+    color: white;
+}
+
+.main-part {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-part section {
+    text-align: center;
+    width: 570px;
+}
+
+.skills h2 {
+    color: #FFAE00;
+    text-align: left;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 0 0 25px 40px;
+}
+
+.skills hr {
+    color: #FFAE00;
+    background-color: #FFAE00;
+    border: none;
+    height: 5px;
+    margin-top: -8px;
+    margin-bottom: 23px;
+}
+
+.line-one {
+    width: 460px;
+    text-align: right;
+}
+
+.line-two {
+    width: 390px;
+    text-align: right;
+}
+
+.line-three {
+    width: 450px;
+    text-align: right;
+}
+
+.line-four {
+    width: 427px;
+    text-align: right;
+}
+
+.line-five {
+    width: 493px;
+    text-align: right;
+}
+
+.skills li {
+    list-style: none;
+    text-align: left;
+    line-height: 24px;
+}
+
+.skills span {
+    color: #ffffff;
+    background-color: #FFAE00;
+    line-height: 36px;
+    padding: 7px;
+    margin-top: -15;
+   
+}
+
+.skills ul {
+    margin: 30px 0 23px 0;
+}
+
+.main-part h2 {
+    color: #FFAE00;
+    text-align: left;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 0 0 25px 40px; 
+}
+
+.main-part p {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    margin: 30px 48px 77px auto;
+}
+
+button {
+    padding: 0;
+    border: none;
+    text-transform: uppercase;
+    background-color: #FFAE00;
+    float: left;
+    width: 170px;
+    height: 38px;
+}
+
+form a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
