@@ -137,7 +137,7 @@ h1, h2 {
     border: none;
     height: 5px;
     margin-top: -8px;
-    margin-bottom: 23px;
+    margin-left: 34px;
 }
 
 .line-one {
@@ -169,6 +169,7 @@ h1, h2 {
     list-style: none;
     text-align: left;
     line-height: 24px;
+    margin-bottom: -23px;
 }
 
 .skills span {
@@ -176,12 +177,9 @@ h1, h2 {
     background-color: #FFAE00;
     line-height: 36px;
     padding: 7px;
-    margin-top: -15;
 }
 
-.skills ul {
-    margin: 30px 0 23px 0;
-}
+
 
 .main-part h2 {
     color: #FFAE00;
